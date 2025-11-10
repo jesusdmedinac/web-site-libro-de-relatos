@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import CartaAlLector from '../assets/carta-al-lector.png';
 ---
 
 <!doctype html>
@@ -13,7 +15,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-      <h1>Libro de relatos</h1>
+      <div class="hero-image">
+        <Image width={1020} height={510} src={CartaAlLector} alt="Carta al lector" />
+      </div>
       {/* TODO: Agregar dedicatoria */}
       <h2>Carta al lector</h2>
       <p>

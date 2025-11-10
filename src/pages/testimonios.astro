@@ -1,0 +1,110 @@
+---
+import { Image } from 'astro:assets';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+---
+<html lang="en">
+  <head>
+    <BaseHead title="Testimonios" description="Testimonios" />
+    <style is:inline>
+      .quote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 0;
+        padding: 1em;
+        color: black;
+        border-radius: 12px;
+        border-left: 4px solid #c0c0c0;
+        background: #f0f0f0;
+      }
+      main {
+        width: calc(100% - 2em);
+        max-width: 100%;
+        margin: 0;
+      }
+      .hero-image {
+        width: 100%;
+      }
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+      }
+      .prose {
+        width: 720px;
+        max-width: calc(100% - 2em);
+        margin: auto;
+        padding: 1em;
+        color: rgb(var(--gray-dark));
+      }
+      .title {
+        margin-bottom: 1em;
+        padding: 1em 0;
+        text-align: center;
+        line-height: 1;
+      }
+      .title h1 {
+        margin: 0 0 0.5em 0;
+      }
+      .date {
+        margin-bottom: 0.5em;
+        color: rgb(var(--gray));
+      }
+      .last-updated-on {
+        font-style: italic;
+      }
+    </style>
+</head>
+
+<body>
+  <Header />
+  <main>
+    <article>
+      <div class="prose">
+        <div class="title">
+          <h1>Testimonios</h1>
+          <hr />
+        </div>
+        <div class="quote">
+          <p>Quién o cómo es Daniel para mí y cómo lo considero</p>
+          <p>Daniel siempre ha sido muy inteligente. Y toda esa inteligencia la he visto porque siempre le ha gustado aprender muchas cosas, sobre mcuhas cosas.</p>
+          <p>Daniel es curioso, duda, preguntam se cuestiona y busca siempre una respuesta veraz y verídica. Gracias a todo ese conocimiento que él busca aprender, tiene una capacidad intelecual muy buena, tanto que es capaz de dialogar e interactuar con las personas de cualquier edad, sobre casi cualquier tema.</p>
+          <p>Daniel no se rinde, confía mucho en su capacidad de aprendizaje, capacitación y conocimiento, que se esfuerza para conseguir lo que se propone.</p>
+          <p>A Danie le gusta mucho ayudar a las personas y lo ha hecho muchas veces sin esperar nada a cambio. Daniel es una persona que sabe valorar y respestar a las personas. Y le gustan mucho las plantas.</p>
+          <p>Es muy trabajador y muy responsable. Ama mucho su trabajo, le gusta tanto que se esfuerza y lo valora. Siempre esta´estudiando, actualizaándose y practicando. Siempre dando todo lo mejor. Además le hace feliz compartir su conocmiento a quienes le piden ayuda.</p>
+          <p>Admiro mucho la capacidad que tiene para retener tanta información de todo lo que estudia y lee. Con Daniel puedo tener una plática de casi cualquier tema y el investiga que la información sea combrobada y respaldada por expertos</p>
+          <p>Es muy realista y no le gsutan las mentiras. Daniel también es muy honesto y amoroso. Pero muy respetuoso de la vida de las personas. Es muy atento y paciente. Tanto como con adultos, como con los niños</p>
+          <p>Lo que le causa dolor y tristeza es no pasar o no poder pasar tiempo con las personas que ama; familiares y amigos</p>
+          <p>En esta nueva etapa en la vida de Daniel (Vivir en EEUU, CA), lo que más admiro de él es cómo ha logrado amarse tanto a sí mismo. El cómo cuida su mente, su cuerpo y su físico. Cuída su mente, cuida su alimentación, cuida su salud.</p>
+          <p>Gracias Daniel, gracias hijo mío. Gracias por darme la oportunidad de conocerte, de amarte, de permitirme ser parte de tu vida. Gracias porque siempre que hablo contigo y te escucho, aprendo muchísimo.</p>
+          <p>Tienes tanto para dar, que sé que seguiré aprendiendo mucho de ti.</p>
+          <p>Con amor, tu mamá Diana Bonilla</p>
+        </div>
+
+        <div class="quote">
+          <p>¿Quién es Daniel?</p>
+          <p>Tuve la fortuna de haber sido bautizado en un grupo de 8 personas, 3 de ellos jóvenes hermanos de sangre, uno de ellos era Daniel, el del medio, el sobresaliente y no me refiero a la estatura, sino a su persona, todo en el era sonrisas, como si supiera que todo lo que viniera para su vida, lo podía resolver, confiado y seguro.</p>
+          <p>Me tocó verlo librando batallas de conocimiento bíblico con hermanos mayores de la fe, con una tranquilidad que daba miedo, era como ver una persona madura con los años en el cuerpo de un joven, solo que él no lo percibía, no se daba cuenta, muy determinado y presto para defender el evangelio de una manera natural e inusual.</p>
+          <p>Con el tiempo fue creciendo en edad y conocimiento, a Daniel solo le faltaba una cosa, que la vida le enseñara, que los años le revelaran, que la vida y unos años le pasaran por encima, lo que estaba viviendo en esos años no lo entendía, pero lo entendería después.</p>
+          <p>Los procesos de Dios son inevitables, su voluntad es buena, agradable y perfecta.</p>
+          <p>Jesús Lopez</p>
+        </div>
+
+        <div class="quote">
+          <p>Recuerdo como si fuera ayer</p>
+          <p>Recuerdo como si fuera ayer el primer día que fuiste a mi oficina a platicar conmigo para trabajar desarrollando Aplicaciones móviles para mi Empresa.</p>
+          <p>Te describo como un jovencito lleno de ambiciones, sediento y hambriento por conocer nuevas herramientas para poder resolver problemas cotidianos de manera digital. Es difícil encontrar a jóvenes con tus mismas aptitudes, con las mismas ganas de superación y con objetivos bien claros como los tienes tú.</p>
+          <p>Reconozco que me hiciste recordar mis tiempos de jóven y admito que nuestras vidas son muy parecidas en la búsqueda de poder progresar y encontrar más maneras de poder vivir mejor. Y algo que te caracteriza es la sana actitud de poder ayudar a tu prójimo de diferentes maneras. Platicando, escuchando, obsequiando, ayudando, aconsejando o simplemente con una grata sonrisa y compañía.</p>
+          <p>Algo muy importante y grande en ti, es tu cercanía con Dios, tu respeto y sabiduría para poder compartir con tus projimos qué también creen y tienen Fé. Considero que has pasado también por situaciones muy difíciles y tristes qué cualquier otra persona se hubiese derrumbado o refugiado en algún vicio que lo llevara a perderlo todo. Hemos compartido momentos muy bonitos en nuestras vidas, coincidimos en muchas ideas y pensamientos positivos de la vida que hemos tenido a lo largo del tiempo que nos conocemos. Siempre he creído que para nosotros fue más importante la relación moral qué la laboral, la cual hizo crecer nuestra amistad.</p>
+          <p>Creo que tienes todo lo más importante para salir adelante y poder lograr todos tus objetivos y metas fijadas en tu mente. Eres un joven valiente y digno de confianza. Eres un buen amigo, hermano, hijo y no tengo ni la menor duda que serás un gran Padre.</p>
+          <p>Con todo mi respeto, cariño y admiración para ti Danny.</p>
+          <p>Atte. José Luis Quiroz</p>
+        </div>
+      </div>
+    </article>
+  </main>
+  <Footer />
+</body>
