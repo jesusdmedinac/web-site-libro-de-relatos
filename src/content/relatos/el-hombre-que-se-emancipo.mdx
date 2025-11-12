@@ -5,12 +5,11 @@ pubDate: 'Nov 3 2025'
 heroImage: '../../assets/el-hombre-que-se-emancipo.png'
 ---
 
-<aside>
-💡
+import Quote from '../../components/Quote.astro';
 
-‘Cuando el hombre ha perdido a Dios, se encuentra a sí mismo.’ — Friedrich Nietzsche
-
-</aside>
+<Quote>
+  Cuando el hombre ha perdido a Dios, se encuentra a sí mismo. — Friedrich Nietzsche
+</Quote>
 
 Desde antes de que yo pudiera recordar, mi madre me presentó ante Dios en una iglesia evangélica. Aquel acto, que parecía una simple ceremonia, inauguró una relación silenciosa con un ser que lo veía todo, incluso mis pensamientos más íntimos.
 
@@ -29,3 +28,10 @@ Alguna vez creí que, sin Dios, todo estaba permitido; ahora sé que, en su nomb
 La vida es compleja y, aun si Dios existiera, prefiero ejercer mi libre albedrío. Prefiero aceptar que no hay una sola respuesta correcta para ninguna pregunta; que la humanidad enfrenta dilemas tan profundos que ni siquiera ‘Dios’ parece dispuesto a resolverlos. Somos nosotros —su creación o su consecuencia— quienes debemos afrontarlos, o perecer en el intento.
 
 No me considero un héroe. Quiero construir una comunidad de familiares y amigos que se propongan amarse: escucharse de verdad, trabajar en conjunto y crear una moral que proteja a los más vulnerables. Sin coerción. Con la voluntad de resolver, juntos, los problemas materiales que nos separan.
+
+import Pagination from '../../components/Pagination.astro';
+
+<Pagination 
+  prev={{ href: "/relatos/la-mano-que-permanece", text: "La mano que permanece" }} 
+  next={{ href: "/relatos/contrabando-de-sueños-compartidos", text: "Contrabando de sueños compartidos" }} 
+/>
