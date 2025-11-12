@@ -5,11 +5,11 @@ const { prev, next } = Astro.props;
 ---
 {/* TODO: Pagination actions */}
 <div class="pagination">
-  {prev && <a href={prev.href}>
+  {prev && <a class="pagination-prev" href={prev.href}>
     <Icon icon={'caret-left'} />
     <span>{prev.text}</span>
   </a>}
-  {next && <a href={next.href}>
+  {next && <a class="pagination-next" href={next.href}>
     <span>{next.text}</span>
     <Icon icon={'caret-right'} />
   </a>}
@@ -29,11 +29,21 @@ const { prev, next } = Astro.props;
     flex-direction: row;
 		text-decoration: none;
 		color: #000;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 0.5em;
+    width: 20em;
+  }
+  .pagination-prev {
+    justify-content: flex-start;
+  }
+  .pagination-next {
+    justify-content: flex-end;
   }
   .pagination a span {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    max-width: 16em;
+    max-width: 15em;
   }
 </style>
