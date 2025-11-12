@@ -1,6 +1,6 @@
 ---
 title: 'Todos a la mesa'
-description: 'Lorem ipsum dolor sit amet'
+description: 'El calor de Mazatlán se colaba por las ventanas abiertas mientras regresaba de la primaria, con el olor inconfundible de la comida de mamá flotando en el aire. En la casa, el perfume de papá, ese que usaba para ir a trabajar, aún permanecía en el ambiente, como un recuerdo silencioso de su presencia.'
 pubDate: 'Sep 12 2025'
 heroImage: '../../assets/todos-a-la-mesa.png'
 ---

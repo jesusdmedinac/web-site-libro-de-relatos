@@ -1,6 +1,6 @@
 ---
 title: 'La mano que permanece'
-description: 'Lorem ipsum dolor sit amet'
+description: 'La luz del amanecer se colaba entre las hojas y molestaba mis ojos pequeños mientras caminábamos de la mano por las calles de la colonia en Mazatlán. El aire traía ese olor inconfundible a guano, mezcla de mar y gaviotas que despertaban a la ciudad. A mi altura, cada cruce era un desafío que debíamos superar con apretones de mano: un tirón atrás significaba alto; una presión firme, sigue.'
 pubDate: 'Sep 12 2025'
 heroImage: '../../assets/la-mano-que-permanece.png'
 ---

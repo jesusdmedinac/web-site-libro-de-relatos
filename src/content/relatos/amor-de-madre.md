@@ -1,6 +1,6 @@
 ---
 title: 'Amor de madre: el dios que da todo por amor'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Recuerdo las mañanas o tardes en Mazatlán, cuando mi madre nos llevaba de compras. No era un paseo cualquiera; era un ritual cargado de significado. Caminábamos por los pasillos inmensos del centro comercial, un lugar que parecía un mundo aparte, con sus olores mezclados de comida y perfumes, y la inmensidad de los pasillos donde varias veces me perdí, pero siempre fui encontrado, como si ese espacio también cuidara de mí.'
 pubDate: 'Sep 12 2025'
 heroImage: '../../assets/amor-de-madre.png'
 ---

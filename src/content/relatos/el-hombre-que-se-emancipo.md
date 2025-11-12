@@ -1,6 +1,6 @@
 ---
 title: 'El hombre que se emancipó de su creador'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Desde antes de que yo pudiera recordar, mi madre me presentó ante Dios en una iglesia evangélica. Aquel acto, que parecía una simple ceremonia, inauguró una relación silenciosa con un ser que lo veía todo, incluso mis pensamientos más íntimos.'
 pubDate: 'Nov 3 2025'
 heroImage: '../../assets/el-hombre-que-se-emancipo.png'
 ---
