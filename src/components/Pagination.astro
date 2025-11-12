@@ -1,0 +1,39 @@
+---
+import Icon from './Icon.astro';
+
+const { prev, next } = Astro.props;
+---
+{/* TODO: Pagination actions */}
+<div class="pagination">
+  {prev && <a href={prev.href}>
+    <Icon icon={'caret-left'} />
+    <span>{prev.text}</span>
+  </a>}
+  {next && <a href={next.href}>
+    <span>{next.text}</span>
+    <Icon icon={'caret-right'} />
+  </a>}
+</div>
+<style>
+  .pagination {
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 1em;
+    color: #000;
+	}
+	.pagination a {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-direction: row;
+		text-decoration: none;
+		color: #000;
+  }
+  .pagination a span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 16em;
+  }
+</style>
