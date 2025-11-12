@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import CartaAlLector from '../assets/carta-al-lector.png';
+import Cta from '../components/Cta.astro';
 ---
 
 <!doctype html>
@@ -18,7 +19,13 @@ import CartaAlLector from '../assets/carta-al-lector.png';
       <div class="hero-image">
         <Image width={1020} height={510} src={CartaAlLector} alt="Carta al lector" />
       </div>
-      {/* TODO: Agregar dedicatoria */}
+      
+      <Cta 
+        title="Que estas páginas sean un puente para cuidar mejor lo cercano"
+        subtitle="Para que en círculos pequeños encontremos la fuerza para enfrentar el mundo."
+        action={{ href: '/relatos/', text: 'Leer el último relato' }}
+      />
+
       <h2>Carta al lector</h2>
       <p>
         Recuerdo aquellas mesas donde la vida se servía en platos sencillos y las palabras eran el alimento más valioso. Mi madre, que conversaba conmigo desde antes de que yo pudiera pronunciar mis primeras palabras, repartía la comida con manos que también daban consuelo. Su amor incondicional ha sido mi refugio constante en la vida. Podré no tener una familia completa, pero ella siempre estará para mí. Así yo quiero estar para ella.
@@ -53,6 +60,11 @@ import CartaAlLector from '../assets/carta-al-lector.png';
       <p>
         Jesús Daniel Medina Cruz
       </p>
+      <Cta 
+        title="Que estas páginas sean un puente para cuidar mejor lo cercano"
+        subtitle="Para que en círculos pequeños encontremos la fuerza para enfrentar el mundo."
+        action={{ href: '/relatos/', text: 'Leer el último relato' }}
+      />
     </main>
 		<Footer />
 	</body>
