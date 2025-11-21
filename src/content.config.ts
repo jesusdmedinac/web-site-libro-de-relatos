@@ -16,4 +16,16 @@ const relatos = defineCollection({
 		}),
 });
 
-export const collections = { relatos };
+const testimonios = defineCollection({
+	loader: glob({ base: './src/content/testimonios', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			heroImage: image().optional(),
+		}),
+});
+
+export const collections = { relatos, testimonios };
